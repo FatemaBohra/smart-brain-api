@@ -12,7 +12,7 @@ const db = knex({
     connection: {
         host: 'postgres://fatemabohra:RPwxjVUoNV9GLxqa8YYIe62aRJqZOqzk@dpg-ci1n1g1mbg56bei96cqg-a/smart_brain_db_qy16',
         user: 'fatemabohra',
-        password: '',
+        password: 'RPwxjVUoNV9GLxqa8YYIe62aRJqZOqzk',
         database: 'smart_brain_db_qy16'
     }
 });
