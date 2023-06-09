@@ -2,7 +2,7 @@ databases:
   - name: smart-brain-db
     databaseName: smart_brain_db_qy16
     user: fatemabohra
-    host: dpg-ci1n1g1mbg56bei96cqg-a
+
  services:
  - type: pserv
    name: pgbouncer
