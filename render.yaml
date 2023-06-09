@@ -2,7 +2,6 @@ databases:
   - name: smart-brain-db
     databaseName: smart_brain_db_qy16
     user: fatemabohra
-
  services:
  - type: pserv
    name: pgbouncer
@@ -11,10 +10,9 @@ databases:
    repo: https://github.com/render-oss/docker-pgbouncer
    envVars:
    - key: DATABASE_URL
-      value: postgres://fatemabohra:RPwxjVUoNV9GLxqa8YYIe62aRJqZOqzk@dpg-ci1n1g1mbg56bei96cqg-a/smart_brain_db_qy16
-     fromDatabase:
-       name: smart-brain-db
-       property: connectionString
+    fromDatabase:
+      name: smart-brain-db
+      property: connectionString
    - key: POOL_MODE
      value: transaction
    - key: SERVER_RESET_QUERY
