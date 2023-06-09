@@ -10,7 +10,8 @@ databases:
    plan: standard
    repo: https://github.com/render-oss/docker-pgbouncer
    envVars:
-   - key: postgres://fatemabohra:RPwxjVUoNV9GLxqa8YYIe62aRJqZOqzk@dpg-ci1n1g1mbg56bei96cqg-a/smart_brain_db_qy16
+   - key: DATABASE_URL
+      value: postgres://fatemabohra:RPwxjVUoNV9GLxqa8YYIe62aRJqZOqzk@dpg-ci1n1g1mbg56bei96cqg-a/smart_brain_db_qy16
      fromDatabase:
        name: smart-brain-db
        property: connectionString
